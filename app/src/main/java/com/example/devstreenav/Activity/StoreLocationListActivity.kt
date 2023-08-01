@@ -39,6 +39,7 @@ class StoreLocationListActivity : AppCompatActivity(), AllData {
             startActivity(Intent(this,MainActivity::class.java))
         }
 
+
         binding.addlocation.setOnClickListener {
             binding.addfirst.performClick()
         }
