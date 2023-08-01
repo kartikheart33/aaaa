@@ -40,6 +40,7 @@ class StoreLocationListActivity : AppCompatActivity(), AllData {
         }
 
 
+
         binding.addlocation.setOnClickListener {
             binding.addfirst.performClick()
         }
